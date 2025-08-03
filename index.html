@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer - Book Your Dream Vacation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +1 (555) 123-4567</span>
+                    <span><i class="fas fa-envelope"></i> info@travelexplorer.com</span>
+                </div>
+                <button class="enquiry-btn">Enquiry</button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>Travel<span class="accent">Explorer</span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#packages">Packages <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#adventure">Adventure</a></li>
+                            <li><a href="#luxury">Luxury</a></li>
+                            <li><a href="#family">Family</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>DISCOVER THE WORLD</h1>
+            <p>Experience unforgettable adventures with our curated travel packages</p>
+            <div class="booking-form">
+                <div class="form-group">
+                    <select>
+                        <option>All Types</option>
+                        <option>Adventure</option>
+                        <option>Luxury</option>
+                        <option>Family</option>
+                        <option>Honeymoon</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Where do you want to go?">
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Philippines">
+                    </div>
+                    <h3>Philippines</h3>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1555992336-03a23c7b20ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Georgia">
+                    </div>
+                    <h3>Georgia</h3>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Greece">
+                    </div>
+                    <h3>Greece</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Packages -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2>Featured Packages</h2>
+            <p class="subtitle">Some of our great deals. Have a look</p>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="New Zealand">
+                    </div>
+                    <div class="package-icons">
+                        <i class="fas fa-bed"></i>
+                        <i class="fas fa-utensils"></i>
+                        <i class="fas fa-car"></i>
+                        <i class="fas fa-hiking"></i>
+                    </div>
+                    <h3>New Zealand North Island Package</h3>
+                    <p class="tour-code">Tour Code: TE/NZ001</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hong Kong">
+                    </div>
+                    <div class="package-icons">
+                        <i class="fas fa-bed"></i>
+                        <i class="fas fa-utensils"></i>
+                        <i class="fas fa-car"></i>
+                        <i class="fas fa-hiking"></i>
+                    </div>
+                    <h3>Hong Kong & Macau Tour Package</h3>
+                    <p class="tour-code">Tour Code: TE/HK001</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Maldives">
+                    </div>
+                    <div class="package-icons">
+                        <i class="fas fa-bed"></i>
+                        <i class="fas fa-utensils"></i>
+                        <i class="fas fa-car"></i>
+                        <i class="fas fa-hiking"></i>
+                    </div>
+                    <h3>Amazing Maldives Honeymoon Package</h3>
+                    <p class="tour-code">Tour Code: TE/MD001</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1552733407-5d005c80f762?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Thailand">
+                    </div>
+                    <div class="package-icons">
+                        <i class="fas fa-bed"></i>
+                        <i class="fas fa-utensils"></i>
+                        <i class="fas fa-car"></i>
+                        <i class="fas fa-hiking"></i>
+                    </div>
+                    <h3>Thailand Tour Package - 5* Offer</h3>
+                    <p class="tour-code">Tour Code: TE/TH001</p>
+                    <button class="view-btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>EXPLORE THE WORLD</h2>
+                    <p>We are a leading tour operator dedicated to creating extraordinary travel experiences. With years of expertise in the travel industry, we specialize in crafting personalized journeys that exceed expectations.</p>
+                    <p>Our professional team of travel experts ensures every detail is perfect, from luxurious accommodations to authentic local experiences. We offer multi-lingual guides, seamless logistics, and unforgettable adventures across the globe.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Travel Experience">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Expert Knowledge</h3>
+                    <p>Comprehensive travel insights and local expertise</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-arrows-alt"></i>
+                    </div>
+                    <h3>Flexible Planning</h3>
+                    <p>Customizable itineraries to match your preferences</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Premium Service</h3>
+                    <p>Luxury travel experiences with VIP treatment</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Transparent Pricing</h3>
+                    <p>No hidden costs, clear and honest pricing</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock assistance during your journey</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Special Upgrades</h3>
+                    <p>Complimentary upgrades and exclusive perks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <h2>Travel Blog</h2>
+            <div class="blog-content">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Safari Adventure">
+                </div>
+                <div class="blog-text">
+                    <h3>EXPLORE THE WORLD</h3>
+                    <p>Embark on an unforgettable safari adventure in the heart of Africa. Experience the thrill of encountering majestic wildlife in their natural habitat, from the mighty lions to graceful elephants. Our expert guides will take you on a journey through breathtaking landscapes and share fascinating insights about the local ecosystem.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonial-content">
+                <div class="testimonial-quote">
+                    <p>"The trip was absolutely incredible! All the drivers and guides were experts and excellent at explaining the cities and local culture. Thank you very much for making our journey so memorable and enjoyable."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Sarah Johnson</span>
+                        <span class="author-location">United States</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-mobile-alt"></i> +1 (555) 987-6543</p>
+                    <p><i class="fas fa-envelope"></i> info@travelexplorer.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Travel Explorer</p>
+                    <p>123 Adventure Street</p>
+                    <p>Travel City, TC 12345</p>
+                    <p>United States</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="social-buttons">
+                        <button class="whatsapp-btn"><i class="fab fa-whatsapp"></i></button>
+                        <button class="tripadvisor-btn"><i class="fas fa-star"></i></button>
+                    </div>
+                    <div class="chat-widget">
+                        <button class="chat-btn"><i class="fas fa-comments"></i></button>
+                        <div class="chat-popup">
+                            <p>Welcome! Need help? We're online and ready to assist you.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright">© 2024 Travel Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
